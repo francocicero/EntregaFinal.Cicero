@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    transition: 1s;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5px;
+}
+
+
+.modo-oscuro{
+    border: 1px solid rgb(7, 25, 54);
+    position: absolute;
+    border-radius: 10%;
+    margin-left: 90%;
+    margin-top: -70px;
+    font-size: 25px;
+}
+
+.modo-oscuro a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav .nav-link {
+    font-size: 25px;
+    font-family: Links;
+    color: rgb(0, 0, 0);
+}
+.nav .nav-link:hover {
+    color: rgb(143, 101, 189);
+    font-size: 25px;
+    transition: 0.5s;
+    background-color: rgb(21, 21, 21);
+}
+
+
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitulo{
+    margin-top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: red;
+}
+
+.slide{
+    margin-top: 40px;
+}
+
+.slide img{
+    height: 750px;
+    width: 100%;
+}
+
+.dark-modee{
+    background-color: black;
+    transition: 1s;
+}
+
+.boton-index{
+    font-size: 25px;
+}
+
+.dark-modee .titulo{
+    color: white;
+    transition: 1s;
+}
+
+.dark-modee .nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.dark-modee .modo-oscuro{
+    color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.dark-modee .modo-oscuro a{
+    color: white;
+}
+
+.dark-modee .nav-footer .ul-footer a{
+    color: rgb(249, 249, 249);
+}
+
+
+
+footer {
+    margin-top: auto;
+
+}
+
+
+.nav-footer{
+    padding: 20px;
+    text-align: right;
+}
+
+.nav-footer .ul-footer {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 50px;
+}
+
+.nav-footer .ul-footer a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-footer .ul-footer .bi-instagram:hover {
+    color: rgba(242, 57, 28, 0.993);
+    transition: 0.5s;
+}
+.nav-footer .ul-footer .bi-twitter:hover {
+    color: rgb(70, 190, 255);
+    transition: 0.5s;
+}
+.nav-footer .ul-footer .bi-tiktok:hover {
+    color: rgb(105, 78, 78);
+    transition: 0.5s;
+}

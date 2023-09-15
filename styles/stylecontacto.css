@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5px;
+}
+
+
+.nav .nav-link {
+    font-size: 25px;
+    font-family: Links;
+    color: rgb(0, 0, 0);
+}
+.nav .nav-link:hover {
+    color: rgb(143, 101, 189);
+    font-size: 25px;
+    transition: 0.5s;
+    background-color: rgb(21, 21, 21);
+}
+
+body{
+    background-color: white;
+    transition: 1s;
+}
+
+.titulo-contacto{
+    text-align: center;
+}
+
+.dark-modee .titulo-contacto{
+    color: white;
+}
+
+.form label{
+    font-size: 20px;
+}
+
+.dark-modee .form label{
+    color: white;
+}
+
+.form input{
+    font-size: 20px;
+}
+
+.dark-modee .form input{
+    background-color: rgb(192, 192, 192);
+    transition: 1s;
+}
+
+.form textarea{
+    resize:both ;
+}
+
+.boton-enviar input{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+
+.modo-oscuro{
+    border: 1px solid rgb(7, 25, 54);
+    position: absolute;
+    border-radius: 10%;
+    margin-left: 90%;
+    margin-top: -70px;
+    font-size: 25px;
+}
+
+.modo-oscuro a{
+    color: black;
+    text-decoration: none;
+}
+
+.dark-modee{
+    background-color: black;
+    transition: 1s;
+}
+
+.dark-modee .titulo-productos{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.dark-modee .nav .nav-link{
+    color: white;
+}
+
+.dark-modee .nav-footer .ul-footer a{
+    color: white;
+}
+
+.dark-modee .carta{
+    border: solid rgb(255, 255, 255) 1px;
+}
+
+.dark-modee .card-body{
+    color: white;
+}
+
+.dark-modee .modo-oscuro{
+    color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.dark-modee .modo-oscuro a{
+    color: white;
+}
+
+
+
+footer {
+    margin-top: 20px;
+
+}
+
+
+.nav-footer{
+    padding: 20px;
+    text-align: right;
+}
+
+.nav-footer .ul-footer {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 50px;
+}
+
+.nav-footer .ul-footer a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-footer .ul-footer .bi-instagram:hover {
+    color: rgba(242, 57, 28, 0.993);
+    transition: 0.5s;
+}
+.nav-footer .ul-footer .bi-twitter:hover {
+    color: rgb(70, 190, 255);
+    transition: 0.5s;
+}
+.nav-footer .ul-footer .bi-tiktok:hover {
+    color: rgb(105, 78, 78);
+    transition: 0.5s;
+}

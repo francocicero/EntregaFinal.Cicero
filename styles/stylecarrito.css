@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5px;
+}
+
+
+.nav .nav-link {
+    font-size: 25px;
+    font-family: Links;
+    color: rgb(0, 0, 0);
+}
+.nav .nav-link:hover {
+    color: rgb(143, 101, 189);
+    font-size: 25px;
+    transition: 0.5s;
+    background-color: rgb(21, 21, 21);
+}
+
+body{
+    background-color: white;
+    transition: 1s;
+}
+
+.modo-oscuro{
+    border: 1px solid rgb(7, 25, 54);
+    position: absolute;
+    border-radius: 10%;
+    margin-left: 90%;
+    margin-top: -70px;
+    font-size: 25px;
+}
+
+.modo-oscuro a{
+    color: black;
+    text-decoration: none;
+}
+
+.dark-modee{
+    background-color: black;
+    transition: 1s;
+}
+
+.dark-modee .titulo-carrito{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.dark-modee .tittulo-carro-vacio{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.dirigirAProductos{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(147, 147, 147);
+    border-radius: 10%;
+}
+
+.dark-modee .cardsCarro{
+    color: white;
+}
+
+.titulo-carrito{
+    display: flex;
+    justify-content: center;
+}
+
+.carta-img-carrito img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.eventos{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.delete{
+    color: red;
+}
+
+.delete:hover{
+    background-color: rgb(171, 135, 135);
+    transition: 1s;
+}
+
+.comprarAhora{
+    color: green;
+}
+
+.comprarAhora:hover{
+    background-color: rgb(135, 171, 149);
+    transition: 1s;
+}
+
+.dark-modee .resumen{
+    color: white;
+}
+
+.eventos{
+    margin-bottom: 20px;
+}
+
+.todoResumen{
+    padding:28px;
+    border: 1px solid red;
+    display: inline-table;
+    margin-left: 780px;
+}
+
+.informacionResumen{
+    font-size: 18px;
+}
+
+.dark-modee .informacionResumen{
+    color: white;
+}
+
+.eliminarTodo{
+    color: red;
+}
+
+.eliminarTodo:hover{
+    background-color: rgb(168, 142, 142);
+    transition: 0.5s;
+}
+
+.finaliz-compra{
+    font-size: 25px;
+    color: rgb(38, 185, 33);
+}
+
+.finaliz-compra:hover{
+    background-color: rgb(173, 209, 179);
+    transition: .8s;
+}
+
+.verMasProdu{
+    font-size: 25px;
+    color: rgb(238, 20, 20);
+}
+
+.verMasProdu:hover{
+    background-color: rgb(209, 173, 173);
+    transition: .8s;
+}
+
+
+
+
+
+
+
+
+.dark-modee .nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.dark-modee .modo-oscuro{
+    color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.dark-modee .modo-oscuro a{
+    color: white;
+}
+
+.dark-modee .nav-footer .ul-footer a{
+    color: rgb(249, 249, 249);
+}
+
+
+
+footer {
+    margin-top: auto;
+
+}
+
+
+.nav-footer{
+    padding: 20px;
+    text-align: right;
+}
+
+.nav-footer .ul-footer {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 50px;
+}
+
+.nav-footer .ul-footer a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-footer .ul-footer .bi-instagram:hover {
+    color: rgba(242, 57, 28, 0.993);
+    transition: 0.5s;
+}
+.nav-footer .ul-footer .bi-twitter:hover {
+    color: rgb(70, 190, 255);
+    transition: 0.5s;
+}
+.nav-footer .ul-footer .bi-tiktok:hover {
+    color: rgb(105, 78, 78);
+    transition: 0.5s;
+}
